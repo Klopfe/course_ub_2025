@@ -1,0 +1,11 @@
+# TSS dump
+init.sql
+
+.DS_Store
+
+__pycache__
+.env
+.history/
+
+# VSCode
+.vscode/*
