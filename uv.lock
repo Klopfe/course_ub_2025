@@ -255,6 +255,56 @@ wheels = [
 ]
 
 [[package]]
+name = "course-ub-2025"
+source = { editable = "." }
+dependencies = [
+    { name = "ipykernel" },
+    { name = "loguru" },
+    { name = "matplotlib" },
+    { name = "numpy" },
+    { name = "pandas" },
+    { name = "pre-commit" },
+    { name = "scikit-learn" },
+    { name = "seaborn" },
+    { name = "setuptools" },
+    { name = "ucimlrepo" },
+    { name = "xgboost" },
+    { name = "ydata-profiling" },
+]
+
+[package.dev-dependencies]
+dev = [
+    { name = "mypy" },
+    { name = "ruff" },
+]
+tests = [
+    { name = "pytest" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "ipykernel", specifier = ">=7.1.0" },
+    { name = "loguru", specifier = ">=0.7.3" },
+    { name = "matplotlib", specifier = ">=3.9.0,<=3.10.0" },
+    { name = "numpy", specifier = ">=2.1.0,<2.2" },
+    { name = "pandas", specifier = ">=2.3.3" },
+    { name = "pre-commit", specifier = ">=4.3.0" },
+    { name = "scikit-learn", specifier = ">=1.7.2" },
+    { name = "seaborn", specifier = ">=0.12.0,<0.13.0" },
+    { name = "setuptools", specifier = ">=70.0.0" },
+    { name = "ucimlrepo", specifier = ">=0.0.7" },
+    { name = "xgboost", specifier = ">=3.1.1" },
+    { name = "ydata-profiling", specifier = ">=4.17.0" },
+]
+
+[package.metadata.requires-dev]
+dev = [
+    { name = "mypy", specifier = ">=1.14.1" },
+    { name = "ruff", specifier = ">=0.3.1" },
+]
+tests = [{ name = "pytest", specifier = ">=8.4.2" }]
+
+[[package]]
 name = "cycler"
 version = "0.12.1"
 source = { registry = "https://pypi.org/simple" }
@@ -420,56 +470,6 @@ sdist = { url = "https://files.pythonhosted.org/packages/72/34/14ca021ce8e5dfedc
 wheels = [
     { url = "https://files.pythonhosted.org/packages/cb/b1/3846dd7f199d53cb17f49cba7e651e9ce294d8497c8c150530ed11865bb8/iniconfig-2.3.0-py3-none-any.whl", hash = "sha256:f631c04d2c48c52b84d0d0549c99ff3859c98df65b3101406327ecc7d53fbf12", size = 7484, upload-time = "2025-10-18T21:55:41.639Z" },
 ]
-
-[[package]]
-name = "ionosphere"
-source = { editable = "." }
-dependencies = [
-    { name = "ipykernel" },
-    { name = "loguru" },
-    { name = "matplotlib" },
-    { name = "numpy" },
-    { name = "pandas" },
-    { name = "pre-commit" },
-    { name = "scikit-learn" },
-    { name = "seaborn" },
-    { name = "setuptools" },
-    { name = "ucimlrepo" },
-    { name = "xgboost" },
-    { name = "ydata-profiling" },
-]
-
-[package.dev-dependencies]
-dev = [
-    { name = "mypy" },
-    { name = "ruff" },
-]
-tests = [
-    { name = "pytest" },
-]
-
-[package.metadata]
-requires-dist = [
-    { name = "ipykernel", specifier = ">=7.1.0" },
-    { name = "loguru", specifier = ">=0.7.3" },
-    { name = "matplotlib", specifier = ">=3.9.0,<=3.10.0" },
-    { name = "numpy", specifier = ">=2.1.0,<2.2" },
-    { name = "pandas", specifier = ">=2.3.3" },
-    { name = "pre-commit", specifier = ">=4.3.0" },
-    { name = "scikit-learn", specifier = ">=1.7.2" },
-    { name = "seaborn", specifier = ">=0.12.0,<0.13.0" },
-    { name = "setuptools", specifier = ">=70.0.0" },
-    { name = "ucimlrepo", specifier = ">=0.0.7" },
-    { name = "xgboost", specifier = ">=3.1.1" },
-    { name = "ydata-profiling", specifier = ">=4.17.0" },
-]
-
-[package.metadata.requires-dev]
-dev = [
-    { name = "mypy", specifier = ">=1.14.1" },
-    { name = "ruff", specifier = ">=0.3.1" },
-]
-tests = [{ name = "pytest", specifier = ">=8.4.2" }]
 
 [[package]]
 name = "ipykernel"
