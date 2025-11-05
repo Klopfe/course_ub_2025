@@ -1,5 +1,5 @@
 [project]
-name = "ionosphere"
+name = "course_ub_2025"
 dynamic = ["version"]
 description = "Add your description here"
 readme = "README.md"
