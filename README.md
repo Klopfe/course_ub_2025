@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a course for a 3 hours workshop on usefull tools for data science.
+This is the repository for a 3 hours workshop on useful tools for data science given to Master MIGS 2nd year.
 
 ## Content
 
