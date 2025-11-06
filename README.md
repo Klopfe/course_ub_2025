@@ -6,7 +6,7 @@ This is the repository for a 3 hours workshop on useful tools for data science g
 
 ## Content
 
-- Notebook to implement XGBoost for regression
+- Notebook to implement Gradient Boosting for regression
 - Notebook to have a look at the data
 - Notebook to compare the performance of the different models
 
